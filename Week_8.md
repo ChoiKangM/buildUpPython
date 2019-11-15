@@ -475,3 +475,472 @@ la_img.bind("<Button>", my_func)
 
 win.mainloop()
 ```
+
+# 윈도우 메뉴
+## 메뉴 생성
+`make_menu.py`
+```python
+# import tkinter module
+from tkinter import *
+
+# Tk instance
+win = Tk()
+win.title("python window")
+
+# create main menu
+main_menu = Menu(win)
+win.config(menu=main_menu)
+
+# create sub menu
+menu1 = Menu(main_menu)
+
+# main-sub menu cascade
+main_menu.add_cascade(label="Menu 1", menu=menu1)
+
+# add sub menu (open, exit)
+menu1.add_command(label="Menu 1-1")
+menu1.add_separator()
+menu1.add_command(label="Menu 1-2")
+
+win.mainloop()
+```
+
+`make_menu2.py`
+```python
+# import tkinter module
+from tkinter import *
+
+# Tk instance
+win = Tk()
+win.title("python window")
+
+# create main menu
+main_menu = Menu(win)
+win.config(menu=main_menu)
+
+# create sub menu
+menu1 = Menu(main_menu)
+menu2 = Menu(main_menu)
+
+# main-sub menu cascade
+main_menu.add_cascade(label="Menu 1", menu=menu1)
+main_menu.add_cascade(label="Menu 2", menu=menu2)
+
+# add sub menu (menu 1)
+menu1.add_command(label="Menu 1-1")
+menu1.add_separator()
+menu1.add_command(label="Menu 1-2")
+
+# add sub menu (menu 2)
+menu2.add_command(label="Menu 2-1")
+menu2.add_command(label="Menu 2-2")
+menu2.add_command(label="Menu 3-2")
+
+win.mainloop()
+```
+
+`real_menu.py`
+```python
+# import tkinter module
+from tkinter import *
+
+# Tk instance
+win = Tk()
+win.title("python window")
+
+# create main menu
+main_menu = Menu(win)
+win.config(menu=main_menu)
+
+# create sub menu
+menu1_file = Menu(main_menu)
+
+# main-sub menu cascade
+main_menu.add_cascade(label="File", menu=menu1_file)
+
+# add sub menu (open, exit)
+menu1_file.add_command(label="Open")
+menu1_file.add_separator()
+menu1_file.add_command(label="Exit")
+
+win.mainloop()
+```
+`real_menu2.py`
+```python
+# import tkinter module
+from tkinter import *
+from tkinter import messagebox
+
+
+# func
+def func_open():
+    messagebox.showinfo("select menu", "open menu")
+def func_exit():
+    win.quit()
+    win.destroy()
+
+# Tk instance
+win = Tk()
+win.title("python window")
+
+# create main menu
+main_menu = Menu(win)
+win.config(menu=main_menu)
+
+# create sub menu
+menu1_file = Menu(main_menu)
+
+# main-sub menu cascade
+main_menu.add_cascade(label="File", menu=menu1_file)
+
+# add sub menu (open, exit)
+menu1_file.add_command(label="Open", command=func_open)
+menu1_file.add_separator()
+menu1_file.add_command(label="Exit", command=func_exit)
+
+win.mainloop()
+```
+
+# Dialog 연동
+`simpledialog`
+```python
+# import tkinter module
+from tkinter import *
+from tkinter.simpledialog import *
+
+# main window
+win = Tk()
+win.title("python Programming")
+win.geometry("400x100")
+
+# label
+la_var = Label(win, text="입력된 값")
+la_var.pack(side=LEFT)
+
+# dialog
+value = askinteger("확대배수", "주사위 숫자(1~6)을 입력하세요", minvalue=1, maxvalue=6)
+
+# show result
+la_var.configure(text=str(value))
+
+win.mainloop()
+```
+
+`filedialog.py`
+```python
+# import tkinter module
+from tkinter import *
+from tkinter.filedialog import *
+
+# main window
+win = Tk()
+win.title("python Programming")
+win.geometry("400x100")
+
+# label
+la_var = Label(win, text="선택된 파일명")
+la_var.pack(side=LEFT)
+
+# dialog
+filename = askopenfilename(parent=win, filetypes=(("GIF 파일", "*.gif"),("모든 파일", "*.*")))
+
+# show result
+la_var.configure(text=filename)
+
+win.mainloop()
+```
+
+# Canvas
+## Canvas
+> 그래프를 그리거나, 다른 것들을 그릴 수 있는 위젯  
+
+`canvas.py`
+```python
+from tkinter import *
+
+# main window
+win = Tk()
+win.title("My Canvas")
+
+# canvas
+drw = Canvas(win, width=200, height=100)
+drw.pack()
+
+# canvas line
+drw.create_line(0, 0, 200, 100)
+drw.create_line(0, 100, 200, 0, fill="red", dash=(4))
+
+# canvas rectangle
+drw.create_rectangle(50, 25, 150, 75, fill="blue")
+
+win.mainloop()
+```
+
+`canvas2.py`
+```python
+from tkinter import *
+
+# main window
+win = Tk()
+win.title("Canvas line")
+
+# canvas
+drw = Canvas(win, width=500, height=500, bg="black")
+drw.pack()
+
+# canvas line
+Q = [430,300, 315,400, 175,400, 151,300, 300,180, 325,70, 200,35, 180,120, 430,385]
+drw.create_line(0, 0, 200, 100)
+# smooth의 유뮤 확인
+drw.create_line(Q, smooth="true", dash=(4), fill="white", width=5)
+
+win.mainloop()
+```
+`canvas_turtle.py`
+```python
+from tkinter import *
+import turtle
+
+# main window
+win = Tk()
+win.title("Turtle Canvas")
+
+# canvas
+drw = Canvas(win, width=500, height=500)
+drw.pack()
+
+# turtle
+t = turtle.RawTurtle(drw)
+t.shape("turtle")
+t.color("blue")
+t.circle(50)
+
+win.mainloop()
+```
+
+`canvas_circle.py`
+```python
+from tkinter import *
+import turtle
+import random
+
+# main window
+win = Tk()
+win.title("Turtle Canvas")
+
+# canvas
+drw = Canvas(win, width=500, height=500)
+drw.pack()
+
+# circle list
+a = []
+for i in range(10):
+    circle = turtle.RawTurtle(drw)
+    circle.color("red")
+    circle.shape("circle")
+    circle.penup()
+    circle.speed(0)
+    circle.goto(x=random.randint(-200,200), y=random.randint(-200,200))
+
+    a.append(circle)
+
+win.mainloop()
+```
+
+`canvas_input_circle.py`
+```python
+from tkinter import *
+import turtle
+import random
+
+def create_circle():
+    num = int(in_num.get())
+
+    for i in range(num):
+        circle = turtle.RawTurtle(drw)
+        circle.color("red")
+        circle.shape("circle")
+        circle.penup()
+        circle.goto(x=random.randint(-200, 200), y=random.randint(-200, 200))
+
+        a.append(circle)
+
+# main window
+win = Tk()
+win.title("Turtle Canvas")
+
+# circle list
+a = []
+
+# canvas
+drw = Canvas(win, width=500, height=500)
+drw.pack()
+
+# label
+la_txt = Label(win, text="개수 입력 : ")
+la_txt.pack(side=LEFT)
+
+# text box
+in_num = Entry(win)
+in_num.pack(side=LEFT)
+
+# button
+btn_ok = Button(win, text="확인", command=create_circle)
+btn_ok.pack(side=LEFT)
+
+win.mainloop()
+```
+
+# Turtle Game
+`turtle_game_circle_moving.py`
+```python
+from tkinter import *
+import turtle
+import random
+
+def play():
+    for mv_a in a:
+        mv_a.right(random.randint(0,100))
+        mv_a.forward(40)
+
+    scr.ontimer(play, 500)
+
+def create_circle():
+    num = int(in_num.get())
+
+    for i in range(num):
+        circle = turtle.RawTurtle(drw)
+        circle.color("red")
+        circle.shape("circle")
+        circle.penup()
+        circle.goto(x=random.randint(-200, 200), y=random.randint(-200, 200))
+
+        a.append(circle)
+
+# main window
+win = Tk()
+win.title("Turtle Canvas")
+
+# circle list
+a = []
+
+# canvas
+drw = Canvas(win, width=500, height=500)
+drw.pack()
+
+# label
+la_txt = Label(win, text="개수 입력 : ")
+la_txt.pack(side=LEFT)
+
+# text box
+in_num = Entry(win)
+in_num.pack(side=LEFT)
+
+# button
+btn_ok = Button(win, text="확인", command=create_circle)
+btn_ok.pack(side=LEFT)
+
+# turtle
+t = turtle.RawTurtle(drw)
+t.shape("turtle")
+t.color("blue")
+t.speed(0)
+t.penup()
+
+scr = t.getscreen()
+play()
+
+win.mainloop()
+```
+
+`turtle_game_key_play.py`
+```python
+from tkinter import *
+import turtle
+import random
+
+def turtle_left(event):
+    t.left(30)
+def turtle_right(event):
+    t.right(30)
+def turtle_go(event):
+    t.forward(30)
+
+def play():
+    global cnt
+
+    for mv_a in a:
+        mv_a.right(random.randint(0,100))
+        mv_a.forward(40)
+
+        if t.distance(mv_a) < 30:
+            cnt += 1
+            str_cnt = str(cnt) + "점"
+            la_result.configure(text=str_cnt)
+
+    scr.ontimer(play, 300)
+
+def create_circle():
+    num = int(in_num.get())
+
+    for i in range(num):
+        circle = turtle.RawTurtle(drw)
+        circle.color("red")
+        circle.shape("circle")
+        circle.penup()
+        circle.goto(x=random.randint(-200, 200), y=random.randint(-200, 200))
+
+        a.append(circle)
+
+# main window
+win = Tk()
+win.title("Turtle Canvas")
+
+# circle list
+a = []
+
+# canvas
+drw = Canvas(win, width=500, height=500)
+drw.pack()
+
+# label
+la_txt = Label(win, text="개수 입력 : ")
+la_txt.pack(side=LEFT)
+
+# text box
+in_num = Entry(win)
+in_num.pack(side=LEFT)
+
+# button
+btn_ok = Button(win, text="확인", command=create_circle)
+btn_ok.pack(side=LEFT)
+
+# label
+la_txt2 = Label(win, text="점수 : ")
+la_txt2.pack(side=LEFT, padx=10)
+
+# result
+la_result = Label(win)
+la_result.pack(side=LEFT)
+
+# button
+btn_exit = Button(win, text="종료", command=quit)
+btn_exit.pack(side=RIGHT)
+
+# turtle
+t = turtle.RawTurtle(drw)
+t.shape("turtle")
+t.color("blue")
+t.speed(0)
+t.penup()
+
+scr = t.getscreen()
+scr.bgcolor("black")
+play()
+
+win.bind("<Left>", turtle_left)
+win.bind("<Right>", turtle_right)
+win.bind("<Up>", turtle_go)
+
+win.mainloop()
+```

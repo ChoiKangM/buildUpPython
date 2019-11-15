@@ -2,24 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa7dbf3-aaab-4c9c-b623-50f28f07f3d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_8/arrangeHWidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/arrangeVWidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/button_event.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/button_event_binding1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/button_event_binding2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/fixed_position.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/image_box_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/key_event_binding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/layout_arrange1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/layout_arrange2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/padding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/photoImage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/quit_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/radiobutton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/width_100.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documents/HW08_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/canvas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/canvas2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/canvas_circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/canvas_input_circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/canvas_turtle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/filedialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/imageOpen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/make_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/make_menu2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/real_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/real_menu2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/simpledialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/turtle_game_circle_moving.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/turtle_game_key_play.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/midtermExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/midtermExam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_8.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_8/PY08_1_2015117360_최강민.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_8/PY08_1_2015117360_최강민.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +36,20 @@
         <entry file="file://$PROJECT_DIR$/Week_8.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="790">
-                <caret line="475" column="14" selection-start-line="475" selection-start-column="14" selection-end-line="475" selection-end-column="14" />
+              <first_editor relative-caret-position="19824">
+                <caret line="944" column="14" selection-start-line="944" selection-start-column="14" selection-end-line="944" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="168">
+                <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
               </first_editor>
               <second_editor />
             </state>
@@ -45,22 +57,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week_8/key_event_binding.py">
+        <entry file="file://$PROJECT_DIR$/Week_9.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="336">
+                <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_6.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="357">
+                <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_5.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_8/turtle_game_key_play.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="372">
+              <caret line="83" column="25" selection-end-line="87" selection-end-column="14" />
               <folding>
-                <element signature="e#24#45#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_8/first_tkinter.py">
+        <entry file="file://$PROJECT_DIR$/Week_8/turtle_game_circle_moving.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="292">
+              <caret line="47" column="17" selection-end-line="56" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,8 +152,25 @@
         <option value="$PROJECT_DIR$/Week_8/button_event.py" />
         <option value="$PROJECT_DIR$/Week_8/button_event_binding.py" />
         <option value="$PROJECT_DIR$/Week_8/button_event_binding2.py" />
-        <option value="$PROJECT_DIR$/Week_8.md" />
         <option value="$PROJECT_DIR$/Week_8/key_event_binding.py" />
+        <option value="$PROJECT_DIR$/Week_8/PY08_1_2015117360_최강민.py" />
+        <option value="$PROJECT_DIR$/Week_8/make_menu.py" />
+        <option value="$PROJECT_DIR$/Week_8/make_menu2.py" />
+        <option value="$PROJECT_DIR$/Week_8/real_menu.py" />
+        <option value="$PROJECT_DIR$/Week_8/real_menu2.py" />
+        <option value="$PROJECT_DIR$/Week_8/simpledialog.py" />
+        <option value="$PROJECT_DIR$/Week_8/filedialog.py" />
+        <option value="$PROJECT_DIR$/Week_8/imageOpen.py" />
+        <option value="$PROJECT_DIR$/Week_8/canvas.py" />
+        <option value="$PROJECT_DIR$/Week_8/canvas2.py" />
+        <option value="$PROJECT_DIR$/Week_8/canvas_turtle.py" />
+        <option value="$PROJECT_DIR$/Week_8/canvas_circle.py" />
+        <option value="$PROJECT_DIR$/Week_8/canvas_input_circle.py" />
+        <option value="$PROJECT_DIR$/Week_8/turtle_game_circle_moving.py" />
+        <option value="$PROJECT_DIR$/Week_8/turtle_game_key_play.py" />
+        <option value="$PROJECT_DIR$/Week_8.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Week_9.md" />
       </list>
     </option>
   </component>
@@ -121,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,15 +194,11 @@
               <item name="buildUpPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="buildUpPython" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="buildUpPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buildUpPython" type="462c0819:PsiDirectoryNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +322,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="831" height="974" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.29259259" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.29259259" />
       <window_info id="Structure" order="1" sideWeight="0.500846" side_tool="true" weight="0.25689518" />
       <window_info id="Favorites" order="2" sideWeight="0.500846" side_tool="true" weight="0.25689518" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -272,7 +333,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32993197" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32993197" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500394" side_tool="true" weight="0.39909297" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -370,16 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week_6.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="36">
-            <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -514,16 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_8.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="790">
-            <caret line="475" column="14" selection-start-line="475" selection-start-column="14" selection-end-line="475" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_8/button_event_binding1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -531,10 +572,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_8/first_tkinter.py">
+    <entry file="file://$PROJECT_DIR$/Week_8/images/jeju1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/PY08_1_2015117360_최강민.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -545,6 +589,186 @@
           <folding>
             <element signature="e#24#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/make_menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="11" lean-forward="true" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/make_menu2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="21" lean-forward="true" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/real_menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/real_menu2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="16" selection-end-line="31" selection-end-column="14" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/simpledialog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="13" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/imageOpen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/first_tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="10" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/filedialog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/canvas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/canvas2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="9" lean-forward="true" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/canvas_turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="10" lean-forward="true" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/canvas_circle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="true" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/canvas_input_circle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="14" column="24" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/turtle_game_circle_moving.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="47" column="17" selection-end-line="56" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/turtle_game_key_play.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="83" column="25" selection-end-line="87" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_5.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_6.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="357">
+            <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19824">
+            <caret line="944" column="14" selection-start-line="944" selection-start-column="14" selection-end-line="944" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_9.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="336">
+            <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
