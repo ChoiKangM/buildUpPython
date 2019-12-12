@@ -41,14 +41,15 @@ win.title("Turtle Canvas")
 
 # circle list
 a = []
+cnt = 0
 
 # canvas
 drw = Canvas(win, width=500, height=500)
 drw.pack()
 
 # label
-la_txt = Label(win, text="개수 입력 : ")
-la_txt.pack(side=LEFT)
+la_txt1 = Label(win, text="개수 입력 : ")
+la_txt1.pack(side=LEFT)
 
 # text box
 in_num = Entry(win)
